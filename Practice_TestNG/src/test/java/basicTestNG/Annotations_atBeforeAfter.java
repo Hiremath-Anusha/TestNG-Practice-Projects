@@ -1,8 +1,11 @@
 package basicTestNG;
 
+
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Annotations_atTest {
+public class Annotations_atBeforeAfter {
 
 	@Test(priority = 0)
 
@@ -27,5 +30,16 @@ public class Annotations_atTest {
 		System.out.println("Compose Script");
 
 	}
+	
+	@BeforeTest
+	public void openbrowser() {
+		System.out.println("Open browser script");
+	}
+	
+	@AfterTest
+	public void closebrowser() {
+		System.out.println("Close broswer script");
+	}
+	
 
 }
