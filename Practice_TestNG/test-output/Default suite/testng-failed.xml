@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="basicTestNG.TestNG_Selenium_Example">
+      <class name="basicTestNG.Assertions_Soft">
         <methods>
-          <include name="openbrowser"/>
-          <include name="amazon"/>
-          <include name="testends"/>
-          <include name="closebrowser"/>
-          <include name="teststart"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- basicTestNG.TestNG_Selenium_Example -->
+      </class> <!-- basicTestNG.Assertions_Soft -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
