@@ -1,131 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="14" passed="13" failed="0" skipped="0">
+<testng-results ignored="3" total="6" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-08-19T18:47:38 CEST" name="Suite1" finished-at="2026-08-19T18:48:33 CEST" duration-ms="55447">
+  <suite started-at="2026-08-19T19:26:55 CEST" name="Suite1" finished-at="2026-08-19T19:26:55 CEST" duration-ms="56">
     <groups>
+      <group name="inbox">
+        <method signature="Testcase_Grouping.test1()[pri:0, instance:basicTestNG.Testcase_Grouping@55b699ef]" name="test1" class="basicTestNG.Testcase_Grouping"/>
+        <method signature="Testcase_Grouping.test2()[pri:0, instance:basicTestNG.Testcase_Grouping@55b699ef]" name="test2" class="basicTestNG.Testcase_Grouping"/>
+        <method signature="Testcase_Grouping.test3()[pri:0, instance:basicTestNG.Testcase_Grouping@55b699ef]" name="test3" class="basicTestNG.Testcase_Grouping"/>
+      </group> <!-- inbox -->
     </groups>
-    <test started-at="2026-08-19T18:47:38 CEST" name="Regression1" finished-at="2026-08-19T18:48:33 CEST" duration-ms="55447">
-      <class name="basicTestNG.Annotations_atBeforeAfterMETHOD">
-        <test-method is-config="true" signature="openbrowser()[pri:0, instance:basicTestNG.Annotations_atBeforeAfterMETHOD@5bda8e08]" started-at="2026-08-19T18:47:38 CEST" name="openbrowser" finished-at="2026-08-19T18:47:38 CEST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openbrowser -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:basicTestNG.Annotations_atBeforeAfterMETHOD@5bda8e08]" started-at="2026-08-19T18:47:38 CEST" name="beforemethod" finished-at="2026-08-19T18:47:38 CEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="login()[pri:0, instance:basicTestNG.Annotations_atBeforeAfterMETHOD@5bda8e08]" started-at="2026-08-19T18:47:38 CEST" name="login" finished-at="2026-08-19T18:47:38 CEST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="aftermethod()[pri:0, instance:basicTestNG.Annotations_atBeforeAfterMETHOD@5bda8e08]" started-at="2026-08-19T18:47:38 CEST" name="aftermethod" finished-at="2026-08-19T18:47:38 CEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftermethod -->
-        <test-method signature="inbox()[pri:1, instance:basicTestNG.Annotations_atBeforeAfterMETHOD@5bda8e08]" started-at="2026-08-19T18:47:38 CEST" name="inbox" finished-at="2026-08-19T18:47:38 CEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- inbox -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:basicTestNG.Annotations_atBeforeAfterMETHOD@5bda8e08]" started-at="2026-08-19T18:47:38 CEST" name="beforemethod" finished-at="2026-08-19T18:47:38 CEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method is-config="true" signature="aftermethod()[pri:0, instance:basicTestNG.Annotations_atBeforeAfterMETHOD@5bda8e08]" started-at="2026-08-19T18:47:38 CEST" name="aftermethod" finished-at="2026-08-19T18:47:38 CEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftermethod -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:basicTestNG.Annotations_atBeforeAfterMETHOD@5bda8e08]" started-at="2026-08-19T18:48:33 CEST" name="closebrowser" finished-at="2026-08-19T18:48:33 CEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-      </class> <!-- basicTestNG.Annotations_atBeforeAfterMETHOD -->
-      <class name="basicTestNG.Assertions_Hard">
-        <test-method signature="test1()[pri:0, instance:basicTestNG.Assertions_Hard@1fa121e2]" started-at="2026-08-19T18:47:38 CEST" name="test1" finished-at="2026-08-19T18:47:44 CEST" duration-ms="6423" status="PASS">
+    <test started-at="2026-08-19T19:26:55 CEST" name="Grouptest" finished-at="2026-08-19T19:26:55 CEST" duration-ms="56">
+      <class name="basicTestNG.Testcase_Grouping">
+        <test-method signature="test1()[pri:0, instance:basicTestNG.Testcase_Grouping@55b699ef]" started-at="2026-08-19T19:26:55 CEST" name="test1" finished-at="2026-08-19T19:26:55 CEST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-      </class> <!-- basicTestNG.Assertions_Hard -->
-      <class name="basicTestNG.TestNG_Selenium_Example">
-        <test-method is-config="true" signature="teststart()[pri:0, instance:basicTestNG.TestNG_Selenium_Example@4116aac9]" started-at="2026-08-19T18:47:38 CEST" name="teststart" finished-at="2026-08-19T18:47:38 CEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teststart -->
-        <test-method is-config="true" signature="openbrowser()[pri:0, instance:basicTestNG.TestNG_Selenium_Example@4116aac9]" started-at="2026-08-19T18:47:50 CEST" name="openbrowser" finished-at="2026-08-19T18:47:51 CEST" duration-ms="691" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openbrowser -->
-        <test-method signature="advantage()[pri:0, instance:basicTestNG.TestNG_Selenium_Example@4116aac9]" started-at="2026-08-19T18:47:51 CEST" name="advantage" finished-at="2026-08-19T18:47:55 CEST" duration-ms="3647" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- advantage -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:basicTestNG.TestNG_Selenium_Example@4116aac9]" started-at="2026-08-19T18:47:55 CEST" name="closebrowser" finished-at="2026-08-19T18:47:55 CEST" duration-ms="133" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="openbrowser()[pri:0, instance:basicTestNG.TestNG_Selenium_Example@4116aac9]" started-at="2026-08-19T18:47:55 CEST" name="openbrowser" finished-at="2026-08-19T18:47:55 CEST" duration-ms="670" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openbrowser -->
-        <test-method signature="easemytrip()[pri:0, instance:basicTestNG.TestNG_Selenium_Example@4116aac9]" started-at="2026-08-19T18:47:55 CEST" name="easemytrip" finished-at="2026-08-19T18:48:33 CEST" duration-ms="37842" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- easemytrip -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:basicTestNG.TestNG_Selenium_Example@4116aac9]" started-at="2026-08-19T18:48:33 CEST" name="closebrowser" finished-at="2026-08-19T18:48:33 CEST" duration-ms="157" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="testends()[pri:0, instance:basicTestNG.TestNG_Selenium_Example@4116aac9]" started-at="2026-08-19T18:48:33 CEST" name="testends" finished-at="2026-08-19T18:48:33 CEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testends -->
-      </class> <!-- basicTestNG.TestNG_Selenium_Example -->
-      <class name="basicTestNG.Assertions_Soft">
-        <test-method signature="test1()[pri:0, instance:basicTestNG.Assertions_Soft@7eac9008]" started-at="2026-08-19T18:47:44 CEST" name="test1" finished-at="2026-08-19T18:47:50 CEST" duration-ms="5801" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method signature="test2()[pri:0, instance:basicTestNG.Assertions_Soft@7eac9008]" started-at="2026-08-19T18:47:50 CEST" name="test2" finished-at="2026-08-19T18:47:50 CEST" duration-ms="1" status="PASS">
+        <test-method signature="test2()[pri:0, instance:basicTestNG.Testcase_Grouping@55b699ef]" started-at="2026-08-19T19:26:55 CEST" name="test2" finished-at="2026-08-19T19:26:55 CEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-      </class> <!-- basicTestNG.Assertions_Soft -->
-      <class name="basicTestNG.Annotations_atTest">
-        <test-method signature="login()[pri:0, instance:basicTestNG.Annotations_atTest@3cd3e762]" started-at="2026-08-19T18:47:38 CEST" name="login" finished-at="2026-08-19T18:47:38 CEST" duration-ms="0" status="PASS">
+        <test-method signature="test3()[pri:0, instance:basicTestNG.Testcase_Grouping@55b699ef]" started-at="2026-08-19T19:26:55 CEST" name="test3" finished-at="2026-08-19T19:26:55 CEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="inbox()[pri:1, instance:basicTestNG.Annotations_atTest@3cd3e762]" started-at="2026-08-19T18:47:38 CEST" name="inbox" finished-at="2026-08-19T18:47:38 CEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- inbox -->
-        <test-method signature="compose()[pri:2, instance:basicTestNG.Annotations_atTest@3cd3e762]" started-at="2026-08-19T18:47:38 CEST" name="compose" finished-at="2026-08-19T18:47:38 CEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- compose -->
-      </class> <!-- basicTestNG.Annotations_atTest -->
-      <class name="basicTestNG.Annotations_atBeforeAfterTEST">
-        <test-method is-config="true" signature="openbrowser()[pri:0, instance:basicTestNG.Annotations_atBeforeAfterTEST@3b0090a4]" started-at="2026-08-19T18:47:38 CEST" name="openbrowser" finished-at="2026-08-19T18:47:38 CEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openbrowser -->
-        <test-method signature="login()[pri:0, instance:basicTestNG.Annotations_atBeforeAfterTEST@3b0090a4]" started-at="2026-08-19T18:47:38 CEST" name="login" finished-at="2026-08-19T18:47:38 CEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="inbox()[pri:1, instance:basicTestNG.Annotations_atBeforeAfterTEST@3b0090a4]" started-at="2026-08-19T18:47:38 CEST" name="inbox" finished-at="2026-08-19T18:47:38 CEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- inbox -->
-        <test-method signature="compose()[pri:2, instance:basicTestNG.Annotations_atBeforeAfterTEST@3b0090a4]" started-at="2026-08-19T18:47:38 CEST" name="compose" finished-at="2026-08-19T18:47:38 CEST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- compose -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:basicTestNG.Annotations_atBeforeAfterTEST@3b0090a4]" started-at="2026-08-19T18:48:33 CEST" name="closebrowser" finished-at="2026-08-19T18:48:33 CEST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-      </class> <!-- basicTestNG.Annotations_atBeforeAfterTEST -->
-    </test> <!-- Regression1 -->
+        </test-method> <!-- test3 -->
+      </class> <!-- basicTestNG.Testcase_Grouping -->
+    </test> <!-- Grouptest -->
   </suite> <!-- Suite1 -->
 </testng-results>
