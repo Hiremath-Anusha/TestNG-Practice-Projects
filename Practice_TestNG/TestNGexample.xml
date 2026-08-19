@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite1" verbose="1">
+  
+  <test name="Regression1">
+    <classes>
+    
+<!--    syntax name = packagename.classname -->
+      <class name="basicTestNG.Assertions_Hard"/> <!--grouping example Assertions_Hard and Soft -->
+      <class name="basicTestNG.Assertions_Soft"/>
+      
+    </classes>
+  </test>
+</suite>

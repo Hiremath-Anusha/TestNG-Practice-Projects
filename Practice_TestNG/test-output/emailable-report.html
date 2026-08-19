@@ -8,43 +8,23 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">4.408</td><td></td><td></td></tr>
+<tr><th colspan="8">Suite1</th></tr>
+<tr><td><a href="#t0">Regression1</a></td><td class="num">13</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">55.447</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">basicTestNG.Assertions_Soft</td><td><a href="#m0">test1</a></td><td rowspan="1">1787156326545</td><td rowspan="1">4371</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">basicTestNG.Assertions_Soft</td><td><a href="#m1">test2</a></td><td rowspan="1">1787156330921</td><td rowspan="1">1</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Regression1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">basicTestNG.Annotations_atBeforeAfterMETHOD</td><td><a href="#m0">inbox</a></td><td rowspan="1">1787158058422</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m1">login</a></td><td rowspan="1">1787158058414</td><td rowspan="1">4</td></tr><tr class="passedodd"><td rowspan="3">basicTestNG.Annotations_atBeforeAfterTEST</td><td><a href="#m2">compose</a></td><td rowspan="1">1787158058432</td><td rowspan="1">2</td></tr><tr class="passedodd"><td><a href="#m3">inbox</a></td><td rowspan="1">1787158058429</td><td rowspan="1">1</td></tr><tr class="passedodd"><td><a href="#m4">login</a></td><td rowspan="1">1787158058427</td><td rowspan="1">0</td></tr><tr class="passedeven"><td rowspan="3">basicTestNG.Annotations_atTest</td><td><a href="#m5">compose</a></td><td rowspan="1">1787158058439</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m6">inbox</a></td><td rowspan="1">1787158058437</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m7">login</a></td><td rowspan="1">1787158058435</td><td rowspan="1">0</td></tr><tr class="passedodd"><td rowspan="1">basicTestNG.Assertions_Hard</td><td><a href="#m8">test1</a></td><td rowspan="1">1787158058444</td><td rowspan="1">6423</td></tr><tr class="passedeven"><td rowspan="2">basicTestNG.Assertions_Soft</td><td><a href="#m9">test1</a></td><td rowspan="1">1787158064869</td><td rowspan="1">5801</td></tr><tr class="passedeven"><td><a href="#m10">test2</a></td><td rowspan="1">1787158070671</td><td rowspan="1">1</td></tr><tr class="passedodd"><td rowspan="2">basicTestNG.TestNG_Selenium_Example</td><td><a href="#m11">advantage</a></td><td rowspan="1">1787158071363</td><td rowspan="1">3647</td></tr><tr class="passedodd"><td><a href="#m12">easemytrip</a></td><td rowspan="1">1787158075818</td><td rowspan="1">37842</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">basicTestNG.Assertions_Soft#test1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
-	expected [One platform to connect] but found [One platform to connect | Zoom]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-	at basicTestNG.Assertions_Soft.test1(Assertions_Soft.java:32)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">basicTestNG.Assertions_Soft#test2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Regression1</h2><h3 id="m0">basicTestNG.Annotations_atBeforeAfterMETHOD#inbox</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">basicTestNG.Annotations_atBeforeAfterMETHOD#login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">basicTestNG.Annotations_atBeforeAfterTEST#compose</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">basicTestNG.Annotations_atBeforeAfterTEST#inbox</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">basicTestNG.Annotations_atBeforeAfterTEST#login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">basicTestNG.Annotations_atTest#compose</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">basicTestNG.Annotations_atTest#inbox</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">basicTestNG.Annotations_atTest#login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">basicTestNG.Assertions_Hard#test1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">basicTestNG.Assertions_Soft#test1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">basicTestNG.Assertions_Soft#test2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">basicTestNG.TestNG_Selenium_Example#advantage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">basicTestNG.TestNG_Selenium_Example#easemytrip</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
