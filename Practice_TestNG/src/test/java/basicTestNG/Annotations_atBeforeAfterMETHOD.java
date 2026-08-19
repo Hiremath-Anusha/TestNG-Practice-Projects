@@ -18,7 +18,7 @@ public class Annotations_atBeforeAfterMETHOD {
 		System.out.println("Inbox Script");
 	}
 
-	@Test(priority = 2)
+	@Test(priority = 2, enabled = false) //this will disable the testcase from execution
 	public void compose() {
 		System.out.println("Compose Script");
 	}
