@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Aug 19 18:18:46 CEST 2026</td>
+<td>Started on:</td><td>Tue Aug 25 19:53:18 CEST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>4 seconds (4408 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (59 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,12 +76,13 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='basicTestNG.Assertions_Soft.test1()'><b>test1</b><br>Test class: basicTestNG.Assertions_Soft</td>
-<td><div><pre>java.lang.AssertionError: The following asserts failed:
-	expected [One platform to connect] but found [One platform to connect | Zoom]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-	at basicTestNG.Assertions_Soft.test1(Assertions_Soft.java:32)
+<td title='basicTestNG.Depends_OnGroups.test3()'><b>test3</b><br>Test class: basicTestNG.Depends_OnGroups</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at basicTestNG.Depends_OnGroups.test3(Depends_OnGroups.java:19)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -108,12 +109,13 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace702500163", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace702500163'><pre>java.lang.AssertionError: The following asserts failed:
-	expected [One platform to connect] but found [One platform to connect | Zoom]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-	at basicTestNG.Assertions_Soft.test1(Assertions_Soft.java:32)
+</pre></div><a href='#' onClick='toggleBox("stack-trace171802996", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace171802996'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at basicTestNG.Depends_OnGroups.test3(Depends_OnGroups.java:19)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -141,8 +143,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>4</td>
-<td>basicTestNG.Assertions_Soft@6f1de4c7</td></tr>
+<td>0</td>
+<td>basicTestNG.Depends_OnGroups@6302bbb1</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -153,10 +155,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='basicTestNG.Assertions_Soft.test2()'><b>test2</b><br>Test class: basicTestNG.Assertions_Soft</td>
+<td title='basicTestNG.Depends_OnGroups.test2()'><b>test2</b><br>Test class: basicTestNG.Depends_OnGroups</td>
 <td></td>
 <td>0</td>
-<td>basicTestNG.Assertions_Soft@6f1de4c7</td></tr>
+<td>basicTestNG.Depends_OnGroups@6302bbb1</td></tr>
+<tr>
+<td title='basicTestNG.Depends_OnGroups.test1()'><b>test1</b><br>Test class: basicTestNG.Depends_OnGroups</td>
+<td></td>
+<td>0</td>
+<td>basicTestNG.Depends_OnGroups@6302bbb1</td></tr>
 </table><p>
 </body>
 </html>
