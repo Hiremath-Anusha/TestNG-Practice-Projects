@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="Suite1" verbose="1">
+  <test name="Regression1"> 
+  <parameter name = "username" value = "dummy"/>
+  <parameter name = "password" value = "random123"/>
+  
+  
+  <parameter name = "username1" value = "udemy"/>
+  <parameter name = "password1" value = "course123"/>
+  
+  
+  <parameter name = "username2" value = "amazon"/>
+  <parameter name = "password2" value = "forest123"/>
+    <classes>
+      <class name="basicTestNG.Parameterization_Xmlfile"/>
+      
+      
+   </classes>
+   
+ </test>
+
+</suite>
