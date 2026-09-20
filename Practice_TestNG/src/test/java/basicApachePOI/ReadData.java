@@ -12,7 +12,7 @@ public class ReadData {
 
 		String expath = "D:\\Anusha\\Testdata\\Inventory-Records-Sample-Data.xlsx";
 
-		// XLSX and XSSFWorkbook
+		// Read data......XLSX and XSSFWorkbook 
 		FileInputStream fis = new FileInputStream(expath);
 		XSSFWorkbook wb = new XSSFWorkbook(fis);
 
